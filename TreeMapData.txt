@@ -1,0 +1,49 @@
+Starting tests
+
+Varying k, using random text length 100 and file length 152145 (alice.txt)
+k: 1 	 mean: 0.000278 	 stddev 0.000000 	 ci: [0.000277, 0.000278]
+k: 2 	 mean: 0.000111 	 stddev 0.000000 	 ci: [0.000111, 0.000111]
+k: 3 	 mean: 0.000113 	 stddev 0.000000 	 ci: [0.000113, 0.000113]
+k: 4 	 mean: 0.000138 	 stddev 0.000000 	 ci: [0.000138, 0.000138]
+k: 5 	 mean: 0.000121 	 stddev 0.000000 	 ci: [0.000121, 0.000121]
+k: 6 	 mean: 0.000230 	 stddev 0.000000 	 ci: [0.000230, 0.000230]
+k: 7 	 mean: 0.000271 	 stddev 0.000000 	 ci: [0.000271, 0.000271]
+k: 8 	 mean: 0.000157 	 stddev 0.000000 	 ci: [0.000157, 0.000157]
+k: 9 	 mean: 0.000263 	 stddev 0.000000 	 ci: [0.000263, 0.000263]
+k: 10 	 mean: 0.000218 	 stddev 0.000000 	 ci: [0.000218, 0.000218]
+k: 11 	 mean: 0.000213 	 stddev 0.000000 	 ci: [0.000213, 0.000213]
+k: 12 	 mean: 0.000180 	 stddev 0.000000 	 ci: [0.000180, 0.000180]
+k: 13 	 mean: 0.000273 	 stddev 0.000000 	 ci: [0.000273, 0.000273]
+k: 14 	 mean: 0.000256 	 stddev 0.000000 	 ci: [0.000256, 0.000256]
+k: 15 	 mean: 0.000206 	 stddev 0.000000 	 ci: [0.000206, 0.000206]
+
+Varying text length, using k 5 and file length 152145 (alice.txt)
+text length: 20 	 mean: 0.000035 	 stddev: 0.000000 	 ci: [0.000035, 0.000035]
+text length: 40 	 mean: 0.000063 	 stddev: 0.000000 	 ci: [0.000063, 0.000063]
+text length: 60 	 mean: 0.000102 	 stddev: 0.000000 	 ci: [0.000102, 0.000102]
+text length: 80 	 mean: 0.000156 	 stddev: 0.000000 	 ci: [0.000156, 0.000156]
+text length: 100 	 mean: 0.000153 	 stddev: 0.000000 	 ci: [0.000153, 0.000153]
+text length: 120 	 mean: 0.000232 	 stddev: 0.000000 	 ci: [0.000232, 0.000232]
+text length: 140 	 mean: 0.000265 	 stddev: 0.000000 	 ci: [0.000265, 0.000265]
+text length: 160 	 mean: 0.000235 	 stddev: 0.000000 	 ci: [0.000235, 0.000235]
+text length: 180 	 mean: 0.000318 	 stddev: 0.000000 	 ci: [0.000318, 0.000318]
+text length: 200 	 mean: 0.000369 	 stddev: 0.000000 	 ci: [0.000369, 0.000369]
+text length: 220 	 mean: 0.000328 	 stddev: 0.000000 	 ci: [0.000328, 0.000328]
+text length: 240 	 mean: 0.000406 	 stddev: 0.000000 	 ci: [0.000406, 0.000406]
+text length: 260 	 mean: 0.000443 	 stddev: 0.000000 	 ci: [0.000443, 0.000443]
+text length: 280 	 mean: 0.000477 	 stddev: 0.000000 	 ci: [0.000477, 0.000477]
+text length: 300 	 mean: 0.000512 	 stddev: 0.000000 	 ci: [0.000512, 0.000512]
+
+Varying file length, using k 5 and text length 100
+unique keys: 4439 	 mean: 0.000058 	 stddev 0.000000 	 ci: [0.000058, 0.000058]
+unique keys: 4823 	 mean: 0.000051 	 stddev 0.000000 	 ci: [0.000051, 0.000051]
+unique keys: 5953 	 mean: 0.000133 	 stddev 0.000000 	 ci: [0.000133, 0.000133]
+unique keys: 12946 	 mean: 0.000081 	 stddev 0.000000 	 ci: [0.000081, 0.000081]
+unique keys: 13095 	 mean: 0.000110 	 stddev 0.000000 	 ci: [0.000110, 0.000110]
+unique keys: 82131 	 mean: 0.000153 	 stddev 0.000000 	 ci: [0.000153, 0.000153]
+unique keys: 152141 	 mean: 0.000168 	 stddev 0.000000 	 ci: [0.000168, 0.000168]
+unique keys: 153080 	 mean: 0.000140 	 stddev 0.000000 	 ci: [0.000140, 0.000140]
+unique keys: 496756 	 mean: 0.000154 	 stddev 0.000000 	 ci: [0.000154, 0.000154]
+unique keys: 4345014 	 mean: 0.000184 	 stddev 0.000000 	 ci: [0.000184, 0.000184]
+
+Finished tests
